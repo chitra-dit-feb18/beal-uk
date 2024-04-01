@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 100px;
+}
+
+.pencil {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #EF6A25;
+    padding: 12px 0 15px 0;
+    color: #fff;
+}
+
+.pencil-contact {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    text-align: left;
+
+}
+
+.pencil-toggle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
