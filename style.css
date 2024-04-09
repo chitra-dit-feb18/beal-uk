@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -11,26 +13,81 @@
     padding: 0 100px;
 }
 
+.dnone {
+    display: none;
+}
+
+.pencil-main {
+    background-color: #EF6A25;
+}
+
 .pencil {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #EF6A25;
     padding: 12px 0 15px 0;
     color: #fff;
 }
 
 .pencil-contact {
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 18.75px;
     text-align: left;
+}
 
+.pencil-contact a {
+    color: #fff;
+}
+
+.pencil-order {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    text-align: left;
+}
+
+.pencil-order a {
+    color: #fff;
+}
+
+.pencil-incl {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    text-align: left;
 }
 
 .pencil-toggle {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.pencil-excl {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    text-align: left;
+}
+
+.pencil-excl a,
+.pencil-incl a {
+    color: #fff;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-accont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
