@@ -86,7 +86,13 @@
     justify-content: space-between;
 }
 
-.header-accont {
+.header .header-account {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .header-cart {
     display: flex;
     align-items: center;
     justify-content: space-between;
