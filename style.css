@@ -86,13 +86,34 @@
     justify-content: space-between;
 }
 
+.headersearch form .search-input {
+    padding: 16px 110px 16px 68px;
+    width: 823px;
+}
+
+.searchform {
+    position: relative;
+}
+
+.headersearch form .searchbutton {
+    position: absolute;
+    right: 0;
+}
+
 .header .header-account {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 110px;
+}
+
+.header .header-cart {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.header .header-cart {
+.header-account-cart {
     display: flex;
     align-items: center;
     justify-content: space-between;
